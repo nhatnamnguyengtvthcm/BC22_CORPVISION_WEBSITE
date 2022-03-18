@@ -163,6 +163,7 @@ element.style {
   text-align: left;
   padding: 10px;
 }
+
 .img__info h5 {
   margin: 0;
   font-weight: 600;
@@ -174,6 +175,7 @@ element.style {
   font-style: normal;
   margin-bottom: 0;
   opacity: 0.8;
+  color: #868686;
 }
 
 .carousel__inner {
@@ -216,7 +218,11 @@ element.style {
 
 .card-footer {
   background: white;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.082);;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.082);
+}
+
+.card {
+  margin: 20px 0;
 }
 .author ul li {
   list-style: none;
@@ -262,7 +268,6 @@ element.style {
 .footer {
   /* height: 1000px; */
   height: auto;
-  border: 1px solid red;
   background-color: #151421;
   /* width: 100%; */
 }
@@ -284,12 +289,10 @@ element.style {
   font-size: 16px;
   line-height: 28px;
   color: #97a1a9;
-  opacity: .8;
+  opacity: 0.8;
 }
 .footer__above {
-
   border-bottom: 1px solid rgba(255, 255, 255, 0.082);
-  
 }
 
 .footer__above__content {
@@ -343,9 +346,7 @@ element.style {
 }
 
 .footer__bellow {
-
   border-bottom: 1px solid rgba(255, 255, 255, 0.082);
-  
 }
 
 .footer__vision {
@@ -411,7 +412,6 @@ element.style {
 .contact__list li {
   list-style: none;
   padding-bottom: 20px;
-
 }
 
 .footer__cate p:hover {
@@ -442,7 +442,7 @@ element.style {
   border: 1px solid #009f4d;
   background-color: #009f4d;
 }
-.backtotop i{
+.backtotop i {
   color: #fff;
 }
 
