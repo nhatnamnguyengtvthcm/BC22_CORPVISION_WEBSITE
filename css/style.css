@@ -5,10 +5,6 @@
 }
 
 /* SERVICE */
-.service {
-  padding: 100px 0;
-  padding-bottom: 0;
-}
 .service .service__title h3 {
   text-align: center;
   font-size: 35px;
@@ -22,6 +18,10 @@
 
 .service__list .service__card {
   padding: 0;
+}
+
+.service__item {
+  background-color: transparent;
 }
 
 .service__list .row .card {
@@ -325,71 +325,4 @@
 
 .success__right__progress .item4 .progress__bar__gradient::after {
   border: 4px solid #e5529a;
-}
-
-/* SIDEBAR */
-.sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidebar a:hover {
-  color: #f1f1f1;
-}
-
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #0d13268a;
-  color: #e6ebff;
-  border: none;
-  border-radius: 50px;
-  width: 50px;
-  height: 50px;
-}
-
-#main {
-  transition: margin-left 0.5s;
-  position: fixed;
-  top: 40%;
-  right: 1%;
-}
-
-#main img {
-  width: 30%;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidebar {
-    padding-top: 15px;
-  }
-  .sidebar a {
-    font-size: 18px;
-  }
 }
